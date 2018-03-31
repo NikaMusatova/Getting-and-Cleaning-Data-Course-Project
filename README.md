@@ -11,15 +11,24 @@ The script run_analysis.R performs the steps described below:
 
 Variables
 
-train_set, test_set - main datasets from the downloaded files 
-all_data - binded main datasets 
-train_set_activityl, test_set_activityl - activity IDs for main datasets from the downloaded files
-activityl - binded activity IDs datasets
-train_set_subj, test_set_subj - subject IDs for main datasets from the downloaded files
-subjects - binded subject IDs datasets
-activity_names - dataset with information about activity ID names
-headers - variable names for main datasets from downloaded files
-all_means_stds - dataset with means and stds only extracted from all_data dataset
+train_set, test_set - main datasets from the downloaded files
+
+all_data - binded main datasets
+
+train_set_activityl, test_set_activityl - activity IDs for main datasets from the downloaded files, 
+
+activityl - binded activity IDs datasets, 
+
+train_set_subj, test_set_subj - subject IDs for main datasets from the downloaded files, 
+
+subjects - binded subject IDs datasets, 
+
+activity_names - dataset with information about activity ID names, 
+
+headers - variable names for main datasets from downloaded files, 
+
+all_means_stds - dataset with means and stds only extracted from all_data dataset,
+
 newtable - dataset with averages of variable in all_means_stds for each subject and activity type.
 
 
