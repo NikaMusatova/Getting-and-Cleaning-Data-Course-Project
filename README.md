@@ -9,7 +9,7 @@ The script run_analysis.R performs the steps described below:
 6. New dataset with averages for each subject and activity type is created. 
 7. New dataset is written in newdata.txt file.
 
-Variables
+Codebook.Variables description is added below:
 
 train_set, test_set - main datasets from the downloaded files
 
